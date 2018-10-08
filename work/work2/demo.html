@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            left: 0px;
+        }
+    </style>
+    <script src="animate.js"></script>
+</head>
+<body>
+    
+    <div id="box"> </div>
+   
+</body>
+<script>
+        var box=document.getElementById('box');
+        box.onclick=function(){
+            animate(box,{left:500,top:300,opacity:20},function(){
+                console.log(1);
+            });
+            //y匀速运动
+            //setInterval(function(){
+            //   var now= parseInt(getStyle(box,'left'));
+            //    if(now==500){
+            //        clearInterval(timer);
+            //    }else{
+            //        box.style.left=now +1+"px";
+            //    }
+            //   box.style.left=now +1+"px";
+            //},30)
+            //变速运动
+            //var timer= setInterval(function(){
+            //    var now=parseInt(getStyle(box,'left'));
+            //    var speed=Math.ceil((0-now)/6);
+            //    speed=speed>0?Math.ceil(speed):Math.floor(speed);
+            //    console.log(now);
+            //    if(now==333){
+            //        clearInterval(timer);
+            //    }else{
+            //        box.style.left=now+speed+'px';
+            //    }
+            //},30)
+        }
+    
+
+        function getStyle(obj,attr){
+            if( obj.currentStyle){
+                return obj.currentStyle[attr];
+            }else{
+                return  getComputedStyle(obj,null)[attr];
+            }
+        }
+    </script>
+</html>
