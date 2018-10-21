@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+
+<nav>
+  <ul class="nav nav-pills">
+    <li><img src="src/assets/images/logo.png"></li>
+    <li ><a [routerLink]="['/home']">首页</a></li>
+    <li ><a [routerLink]="['/tongbu']">同步课</a></li>
+    <li ><a [routerLink]="['/course']">课程</a></li>
+    <li ><a [routerLink]="['/shequ']" [queryParams]="{id:800,name:'ll'}">社区</a></li>
+  </ul>
+  <input type="search" value="搜索课程、问答"  id="searrch">
+  <button id="button1"></button>
+  <button id="button2"></button>
+  
+</nav>
+
+

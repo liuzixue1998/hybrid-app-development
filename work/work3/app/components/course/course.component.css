@@ -1,0 +1,94 @@
+
+
+
+.li{
+    width:240px;
+    height: 300px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+.li img{
+    width: 240px;
+    height: 150px;
+    border-top-right-radius: 5px;
+}
+
+.li a h4{
+    height:15px;
+    line-height: 15px;
+    color:#000;
+    margin:10px 5px;
+    font-weight:normal;
+}
+
+.li a p{
+    width:230px;
+    height: 70px;
+    font-size: 13px;
+    overflow: hidden;
+    margin:5px;
+    color:#ccc;
+}
+
+.down{
+    height: 20px;
+    width: 230px;
+   color:#ccc;
+    position:absolute;
+    bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.span1{
+    float: left;
+    margin-left: 5px;
+}
+
+.span2{
+    float: right;
+    margin-right: 5px;
+}
+
+.all{
+    width: 1000px;
+    height: 1100px;
+    margin-left: 100px;
+    position: absolute;
+    left: 100px;
+    top:50px;
+}
+
+.but{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#sel1{
+    width: 80px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#sel2{
+    width: 80px;
+    height: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sel:hover{
+    background-color: #eee;
+    color:brown;
+}
+
+.but select{
+   width: 80px;
+    height: 30px;
+}

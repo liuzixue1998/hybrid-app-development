@@ -1,0 +1,52 @@
+.thumbnail{
+    width: 203px;
+    height: 300px;
+    position: absolute;
+    left: 200px;
+    top:20px;
+}
+.caption{
+    font-size: 20px;
+    position: absolute;
+    top:230px;
+}
+.index-user-name{
+    font-size: 18px;
+    position: relative;
+    left: 60px;
+}
+.line{
+    position: absolute;
+    top:400px;
+    left: 190px;
+    width: 203px;
+}
+.fu{
+    letter-spacing: 50px;
+}
+#topp{
+    position: absolute;
+    top:90px;
+    left: 450px;
+    width: 700px;
+    height: 500px;
+    box-shadow:#F8F8F8 10px 3px 10px 6px ;
+}
+#tag{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.col-lg-6{
+    position: relative;
+    left: 330px;
+    top:-10px;
+}
+#wenzi{
+    text-align: center;
+    font-size:25px;
+    color:  #E0E0E0;
+    position: relative;
+    left: 500px;
+    top:250px;
+}

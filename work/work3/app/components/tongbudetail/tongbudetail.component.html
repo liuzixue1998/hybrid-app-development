@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<div class="container">
+  <a [routerLink]="['/tongbu',course.id]">
+  <h3>同步课/{{course?.courseName}}</h3>
+  <ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="dropdown"><a href="#">简介 </a></li>
+    <li role="presentation" class="dropdown"><a href="#">互动 </a></li>
+    <li role="presentation" class="dropdown"><a href="#">任务 <span class="badge">{{course?.task}}</span></a></li>
+    <li role="presentation" class="dropdown"><a href="#">成员 <span class="badge">{{course?.person}}</span></a></li>
+    
+  </ul>
+  </a>
+</div>
+
+
+

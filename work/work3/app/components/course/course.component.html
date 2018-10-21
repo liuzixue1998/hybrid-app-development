@@ -1,0 +1,34 @@
+<!--分类-->
+<div class="all">
+    <div class="but">
+        <select class="sel" id="sel1">
+            <option >课程分类</option>
+            <option >web前端开发</option>
+            <option >web后端开发</option>
+            <option >移动应用开发</option>
+        </select>
+        <select class="sel" id="sel2">
+            <option >课程体系</option>
+            <option >计算机基础技能</option>
+            <option >产品设计</option>
+            <option >软件测试人员</option>
+        </select>
+    </div>
+
+<div class="course">
+    <ul>
+        <li *ngFor="let lesson of lessons;">
+            <div class="li">
+              <a [routerLink]="['/course',lesson.id]">
+               <img src="{{lesson.images}}" alt="">
+                <h4>{{lesson.lessonName}}</h4>
+                <p>{{lesson.contain}}<p>
+                <div class="down">
+                  <span class="span1">课时:{{lesson.time}}</span>
+                  <span class="span2">人数:{{lesson.person}}</span>
+                </div>
+              </a>
+            </div>
+          </li>
+     </ul> 
+  </div>

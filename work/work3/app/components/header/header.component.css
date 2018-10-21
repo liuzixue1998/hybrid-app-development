@@ -1,0 +1,55 @@
+nav{
+    height: 50px;
+    background-color:#E8E8E8;
+    height: 70px;
+    
+}
+.nav{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 50px;
+}
+.nav li{
+    float: left;
+    margin: 0 30px;
+    cursor: pointer;
+}
+#button1{
+    background-image:url(src/assets/images/serch.png);
+    height: 30px;
+    width: 30px;
+    background-size: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top:17px;
+    right: 400px;
+    
+}
+#button2{
+    background-image: url(src/assets/images/tongzhi.png);
+    height: 30px;
+    width: 30px; 
+    background-size: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top:17px;
+    right: 360px;
+
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+#circle{
+    width: 100px;      
+    height: 100px;      
+    background:url(src/assets/images/001.jpg)   ;
+    border-radius: 20%;      
+    -moz-border-radius: 50%;      
+    -webkit-border-radius: 50%;  
+}
+#searrch{
+    position: absolute;
+    top:17px;
+    right: 400px;
+}

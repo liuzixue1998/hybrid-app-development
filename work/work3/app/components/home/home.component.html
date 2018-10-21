@@ -1,0 +1,56 @@
+
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<div class="left" style="float:left;">
+<!--头像-->
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="src/assets/images/003.png" >
+            <div class="index-user-name">3-刘子雪</div>
+            <div class="caption">
+              <p> &nbsp; &nbsp;&nbsp;<a href="#">0 <span>粉丝</span> </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" >2  <span>关注</span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--左侧导航-->
+  <div class="line">
+  <ul class="nav nav-pills nav-stacked"> 
+      <li role="presentation" class="active"><a href="#"> 任务&nbsp;&nbsp;&nbsp;<span class="fu"> ></span></a></li>
+      <li role="presentation"><a href="#">同步课<span class="fu"> ></span></a></li>
+      <li role="presentation"><a href="#">课程&nbsp;&nbsp;&nbsp;<span class="fu"> ></span></a></li>
+      <li role="presentation"><a href="#">且说&nbsp;&nbsp;&nbsp;<span class="fu"> ></span></a></li>
+      <li role="presentation"><a href="#">通知&nbsp;&nbsp;&nbsp;<span class="fu"> ></span></a></li>
+  </ul>
+  </div>
+</div>
+<!-- <img src="assets/images/myLogo.png" alt=""> -->
+<div class="right" style="float:left;margin-left:50px;">
+  <router-outlet></router-outlet>
+  <div id="topp">
+  <div id="tag">
+  <ul class="nav nav-pills" role="tablist" >
+      <li role="presentation" class="active"><a href="#"><span class="glyphicon glyphicon-time"></span>未提交 <span class="badge">0</span></a></li>
+      <li role="presentation"><a href="#"><span class="glyphicon glyphicon-ok-circle"></span>已完成</a></li>
+      <li role="presentation"><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>已完结</a></li>
+    </ul>
+  </div>
+
+    <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"> </span></button>
+          </span>
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+    </div>
+
+    <div id="wenzi">您当前的同步任务已全部完成
+      <span class="glyphicon glyphicon-info-sign"></span>
+    </div>
+</div>
+

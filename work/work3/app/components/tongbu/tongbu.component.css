@@ -1,0 +1,24 @@
+
+.container li{
+    width: 230px;
+    float: left;
+    margin-right: 3px;
+    border: 1px solid #E0E0E0;
+    margin: 10px;
+    display: table-cell;vertical-align: middle;
+    text-align: center;
+}
+a:link {
+    text-decoration: none
+}
+h3{
+    font-size: 15px;
+    color: black;
+    position: relative;
+    top:-5px;
+}
+#num{
+    position: relative;
+    top:10px;
+    left: 400px;
+}

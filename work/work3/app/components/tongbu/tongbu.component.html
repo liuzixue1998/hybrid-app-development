@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+
+<div class="container">
+  <ul>
+    <li *ngFor="let course of courses;">
+      <a [routerLink]="['/tongbu',course.id]">
+        <img src="{{course.images}}" alt="">
+        <h3 >{{course.courseName}}</h3>
+        <div>
+          <span class="glyphicon glyphicon-th-list"></span>
+          <span>{{course.task}}</span>&nbsp;&nbsp;
+          <span class="glyphicon glyphicon-user"></span>
+          <span>{{course.person}}</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button>申请</button>
+        </div>
+    </a>
+    </li>
+  </ul>
+</div>
+
+<!--分页-->
+<div id="num">
+  <nav aria-label="Page navigation">
+    <ul class="pagination">
+      <li>
+        <a href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li><a href="#">6</a></li>
+      <li><a href="#">7</a></li>
+      <li><a href="#">8</a></li>
+      <li><a href="#">9</a></li>
+      <li><a href="#">10</a></li>
+      <li><a href="#">11</a></li>
+      <li><a href="#">12</a></li>
+      <li><a href="#">13</a></li>
+      <li>
+        <a href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
