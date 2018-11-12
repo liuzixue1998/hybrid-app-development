@@ -1,0 +1,101 @@
+page-about {
+    .sea{
+       position: absolute;
+       right: -150px;
+    }
+    .navList{
+        padding-left: 0!important;
+        margin: 0;
+        height: 44px;
+        line-height: 44px;
+        .first{
+            border-bottom:2px solid #ffdb2c;
+        }
+        li{
+            height: 44px;
+            text-align: center;
+            float: left;
+            width: 25%;
+        }
+    }
+    .sli{
+        height:auto;
+        img{
+            width: 100%;
+        }
+    }
+    .subtitle{
+        letter-spacing: 5px;
+        position: absolute;
+        top: 320px;
+        left: 90px;
+
+    }
+    .picc{
+        padding: 0;
+        float: left;
+        img{
+            width: 400px;
+        }
+        li{
+            position: relative;
+            width: 100px;
+            float: left;
+            margin: 5px 10px 5px 5px;
+            padding: 2px;
+            left: 10px;
+            p{
+                position: absolute;
+                width: 95px;
+                bottom:4px;
+                margin: 0;
+                color: #fff;
+                height: 96px;
+                line-height: 100px;
+                text-align: center;
+                background-color:rgba(0,0,0,0.5);
+                font-size:30x;
+                font-weight: bold;              
+            }
+        }
+    }
+    .goods{
+        padding: 0;
+        position: relative;
+        top:10%;
+        img{
+            width: 100%;
+        }
+        li{
+            position: relative;
+            width: 45%;
+            float: left;
+            margin: 5px 0 5px 3%;
+            span{
+                display: block;
+                width: 26px;
+                height: 26px;
+                text-align: center;
+                line-height: 26px;
+                border-radius: 50%;
+                color: red;
+                position: absolute;
+                background: #fff;
+                right: 15px;
+                bottom: 25px;
+            }
+            p{
+                position: absolute;
+                width: 100%;
+                bottom:4px;
+                margin: 0;
+                color: #fff;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                background-color:rgba(0,0,0,0.5);
+            }
+        }
+    }
+
+}
