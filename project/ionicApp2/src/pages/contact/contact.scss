@@ -1,0 +1,33 @@
+page-contact {
+    .zoo2{
+        position: relative;
+        top:-280px;
+    }
+    .zoo3{
+        position: relative;
+        top:-570px;
+    }
+    .gr{
+        background: #afadae;
+        width: 180px;
+        height: 150px;
+        position: relative;
+        top:-190px;
+        left: 100px;
+        opacity: 0.7;
+    }
+    .txt{
+        color: white;
+        text-align: center;
+        position: relative;
+        top:-320px;
+        left: 0px;
+        line-height: 30px;
+        p{
+            font-size: 20px;
+        }
+        h6{
+            font-size: 13px;
+        }
+    }
+}

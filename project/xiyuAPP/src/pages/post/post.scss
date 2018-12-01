@@ -1,0 +1,39 @@
+page-post {
+    ion-header{
+        background-color: #F8F8F8!important;
+        height: 4rem;
+        p{
+            width: 3rem;
+        }
+        ion-title{
+            text-align: center;
+            position: relative;
+            top:-3.5rem;
+            width: 10rem;
+            left: 13rem;
+        }
+        button{
+            position: relative;
+            top:-5.5rem;
+            right: -32rem;
+        }
+    }
+    ion-content{
+        border: 1px solid white;
+        .cam{
+            width: 11rem;
+            height: 11rem;
+            border: 1px solid #BBBBBB;
+            color: #AAAAAA;
+            font-size: 3rem;
+            text-align: center;
+            position: relative;
+            top:10rem;
+            left: 1rem;
+            ion-icon{
+                position: relative;
+                top:3.5rem;
+            }
+        }
+    }
+}

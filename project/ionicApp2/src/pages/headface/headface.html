@@ -1,0 +1,60 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>headface</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<!-- 下拉刷新加载 -->
+
+<ion-content no-margin>
+
+    <ion-refresher (ionRefresh)="pullDown($event)">
+  
+      <ion-refresher-content pullingIcon="arrow-dropdown" pullingText="{{Refresh}}" refreshingSpinner="circles" refreshingText="{{Refresh}}">
+  
+      </ion-refresher-content>
+  
+    </ion-refresher>
+  
+   
+  
+    <!-- 显示图片，若没有图片则显示请从图库中选择一张图片 -->
+  
+    <img src="{{pathForImage(lastImage)}}" style="width:100%;" [hidden]="lastImage === null" />
+  
+    <h3>请从图库中选择一张图片</h3>
+  
+  </ion-content>
+  
+   
+  
+  <ion-footer>
+  
+    <ion-toolbar color="primary">
+  
+      <ion-buttons>
+  
+        <button ion-button icon-left (click)="presentActionSheet()">
+  
+          <ion-icon name="camera"></ion-icon>选择...
+  
+        </button>
+  
+        <!-- 如果没有选择图片，上传按钮为不可用状态 -->
+  
+        <button ion-button icon-left (click)="uploadImage()" [disabled]="lastImage === null">
+  
+          <ion-icon name="cloud-upload"></ion-icon>上传
+  
+        </button>
+  
+      </ion-buttons>
+  
+    </ion-toolbar>
+  
+  </ion-footer>
+  

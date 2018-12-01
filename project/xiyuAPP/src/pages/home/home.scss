@@ -1,0 +1,19 @@
+page-home {
+.navlist{
+    background-color: #009688;  
+    padding-left: 0!important;
+    margin: 0;
+    height: 44px;
+    line-height: 44px;
+    color: aliceblue;
+    .first{
+        border-bottom: solid 2px yellow;
+    }
+    li{
+        text-align: center;
+        width: 33%;
+        height: 44px;
+        font-size: 2rem;
+    }
+}
+}

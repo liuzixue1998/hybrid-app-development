@@ -1,0 +1,35 @@
+page-add {
+  ion-content{
+     img{
+         height: 60rem;
+     }
+     ul{
+         position: relative;
+         top:-45rem;
+         left: 2rem;
+         font-size: 2rem;
+         margin: 1rem;
+         line-height: 3rem;
+         color: #009688;
+     }
+     p{
+         position: relative;
+         top:-5rem;
+         width: 10rem;
+         left: 3.5rem;
+        
+     }
+     ion-icon{
+        position: relative;
+        top:2.5rem;
+        left: -6.5rem;
+       
+     }
+     .xx{
+        font-size: 3rem;
+        position: relative;
+        top:-11rem;
+        left: -14rem;
+     }
+  }
+}

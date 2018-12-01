@@ -1,0 +1,39 @@
+page-signup {
+    ion-content{
+        font-size: 2rem;
+        span{
+            position: relative;
+            top:-63rem;
+            color: white;
+            ion-icon{
+                position: relative;
+                top:0.7rem;
+                left: 1rem;
+            }
+            p{
+                position: relative;
+                top:-4rem;
+                left: 16rem;
+            }           
+        }
+        ion-item{
+            position: relative;
+            top:-57rem;
+            left: 2rem;
+            background-color: white;
+            border:1px solid #AAAAAA;
+            background:#AAAAAA;           
+        }
+        button{
+            background-color: #009688;
+            text-align: center;
+            width: 32rem;
+            height: 4rem;
+            font-size: 2.5rem;
+            color:white;
+            position: relative;
+            top:-51rem;
+            left: 2rem;
+        }
+    }
+}

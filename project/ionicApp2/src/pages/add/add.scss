@@ -1,0 +1,35 @@
+page-add {
+    ion-content{
+        background: #ffdb2c !important;
+        ul{
+            position: relative;
+            top:100px;
+            left: 20px;
+            float: left;
+        }
+        li{
+            float: left;
+        }
+        p{
+            width: 100px;
+            color: black;
+            font-size:25px;
+            position: relative;
+            top:10px;
+            left: 25px;
+        }
+        h6{
+            color: #837011;
+        }
+        .tou{
+            text-align: center;
+        }
+        ion-icon{
+            position: relative;
+            top:30px;
+            left: -60px;
+            font-size:35px;
+        }
+    }
+    
+}

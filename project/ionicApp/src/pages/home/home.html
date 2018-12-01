@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button ico-only menu Toggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+    <ion-buttons>
+      <ion-icon name="options"></ion-icon>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+css工具集--theme下
+sass变量（全局）--variable.scss
+slides 组件 属性 方法及实践
+@ViewChild()
+创建组件 ionic g component componentName
+模板引用变量 标签上写#变量名
+segment组件及ngSwitch
+服务器代理 ionic.config
+
+<c #ac></c>
+<input type="text" #inp>
+
+
+
+<ion-header>
+    <ion-toolbar>
+      <ion-segment [(ngModel)]="icons" color="secondary">
+        <ion-segment-button value="camera">
+          <ion-icon name="camera"></ion-icon>
+        </ion-segment-button>
+        <ion-segment-button value="bookmark">
+          <ion-icon name="bookmark"></ion-icon>
+        </ion-segment-button>
+      </ion-segment>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+      <!-- Segment in content -->
+      <ion-segment [(ngModel)]="relationship" color="primary" (ionChange)="segmentChanged($event)">
+        <ion-segment-button value="friends">
+          Friends
+        </ion-segment-button>
+        <ion-segment-button value="enemies">
+          Enemies
+        </ion-segment-button>
+      </ion-segment>
+
+
+
+<ion-content padding>
+  <button ion-button block (click)="goSub(inp.value)">跳转</button>
+  <ion-list>
+    <ion-item detai-push>Item </ion-item>
+    <ion-item>Item</ion-item>
+    <ion-item>Item</ion-item>
+    <ion-item>Item</ion-item>
+    <ion-item>
+      <h2>Item</h2>
+      <p>Item paragraph</p>
+      <ion-thumbnail item-end> 
+        <img src="assets/imgs/logo.png" >
+      </ion-thumbnail>
+    </ion-item>
+    <ion-item-sliding>
+      <ion-item>
+        Item
+      </ion-item>
+    </ion-item-sliding>
+    <button ion-button color="danger">Danger</button>
+  </ion-list>
+
+
+  <ion-list>
+    <ion-item *ngFor="let i of items">{{i}}</ion-item>
+  </ion-list>
+ 
+  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>
+
+

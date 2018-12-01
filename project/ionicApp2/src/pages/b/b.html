@@ -1,0 +1,83 @@
+<ion-header>
+    <div class="head">
+      <img src="assets/imgs/bg2.png" alt="">
+      <div  class="tou" style="float: left;border-radius:70%; height: 80px; overflow:hidden; " >
+          <img class="mui-icon-image" src="assets/imgs/touxiang.png" style="height: 80px;" />
+      </div>
+      <p>土方桔桔桔</p>
+    </div>
+  </ion-header>
+  
+  <ion-content>
+    <!--订单-->
+    <div class="dd">
+      我的订单
+      <div class="look">
+        查看全部订单 &gt;
+      </div>
+    </div>
+    <!--中间层-->
+    <div class="mid">
+        <ul>
+          <li class="first">
+              <ion-icon name="md-create"></ion-icon>
+          </li>
+          <li>
+              <span class="pos">
+              <ion-icon name="md-star"></ion-icon>
+              <p>我的收藏</p>
+              </span>
+          </li>
+          <li class="third">
+                <span class="pos">
+              <ion-icon name="md-eye"></ion-icon>
+              <p>我的关注</p>
+              </span>
+          </li>
+        </ul>
+    </div>
+    <!--下部分-->
+    <div class="bot">
+      <ul>
+        <li>
+            <span class="pos">
+            <ion-icon name="md-cart"></ion-icon>
+            <p>购物车</p>
+            </span>
+        </li>
+        <li >
+            <span class="pos">
+            <ion-icon name="md-pin"></ion-icon>
+            <p>收货地址</p>
+            </span>
+        </li>
+        <li>
+            <span class="pos">
+            <ion-icon name="md-medal"></ion-icon>
+            <p>优惠券</p>
+            </span>
+        </li>
+        <li>
+            <span class="pos">
+            <ion-icon name="md-headset"></ion-icon>
+            <p>在线客服</p>
+            </span>
+        </li>
+        <li>
+            <span class="pos">
+            <ion-icon name="md-mail"></ion-icon>
+            <p>我的消息</p>
+            </span>
+        </li>
+        <li [navPush]="settingsPage">
+            <span class="pos">
+            <ion-icon name="md-settings"></ion-icon>
+            <p>设置</p>
+            </span>
+        </li>
+      </ul>
+    </div>
+    
+  </ion-content>
+  
+      
